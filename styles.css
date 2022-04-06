@@ -1,4 +1,4 @@
-/*
+
 
 h1,
 h2,
@@ -19,11 +19,17 @@ p {
 table {
     margin-left: auto;
     margin-right: auto;
+}
+
+th.start {
     text-align: start;
 }
 
-th {
-    text-align: start;
-}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
 
-*/
+
+
