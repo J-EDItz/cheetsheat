@@ -1,0 +1,29 @@
+/*
+
+h1,
+h2,
+nav,
+p {
+    text-align: center;
+}
+
+#pre {
+    text-align: center;
+  }
+ 
+ #pre pre {
+   display: inline-block;
+   text-align: left;
+  }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+}
+
+th {
+    text-align: start;
+}
+
+*/
