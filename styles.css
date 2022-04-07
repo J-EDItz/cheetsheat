@@ -1,5 +1,49 @@
 
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: x-large;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: whitesmoke;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+nav {
+    background-color: hsl(200deg 100% 75%);
+}
+
+
 h1,
 h2,
 nav,
@@ -23,12 +67,24 @@ table {
 
 th.start {
     text-align: start;
+    background-color: hsl(200deg 100% 75%);
 }
 
-table, th, td {
-    border: 1px solid black;
+table {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     border-collapse: collapse;
+    min-width: 400px;
   }
+
+table th {
+    color: black;
+}
+
+table.common {
+    text-align: center;
+}
+
+
   
 
 
