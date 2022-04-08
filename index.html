@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/cb710ee383.js" crossorigin="anonymous"></script>
     <title>HTML Tables Cheatsheet</title>
 </head>
 <body>
@@ -22,31 +23,31 @@
     <p>Code ex:</p>
         <div id="pre">
              <pre>
-                &lt;table>
-                    &lt;tr>
-                        &lt;th>Company&lt;/th>
-                        &lt;th>Contact&lt;/th>
-                        &lt;th>Country&lt;/th>
-                    &lt;/tr>
-                    &lt;tr>
-                        &lt;td>Alfreds Futterkiste&lt;/td>
-                        &lt;td>Maria Anders&lt;/td>
-                        &lt;td>Germany&lt;/td>
-                    &lt;/tr>
-                    &lt;tr>
-                        &lt;td>Centro comercial Moctezuma&lt;/td>
-                        &lt;td>Francisco Chang&lt;/td>
-                        &lt;td>Mexico&lt;/td>
-                    &lt;/tr>
-                &lt;/table>
+    &lt;table>
+        &lt;tr>
+            &lt;th>Company&lt;/th>
+            &lt;th>Contact&lt;/th>
+            &lt;th>Country&lt;/th>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>Alfreds Futterkiste&lt;/td>
+            &lt;td>Maria Anders&lt;/td>
+            &lt;td>Germany&lt;/td>
+        &lt;/tr>
+        &lt;tr>
+            &lt;td>Centro comercial Moctezuma&lt;/td>
+            &lt;td>Francisco Chang&lt;/td>
+            &lt;td>Mexico&lt;/td>
+        &lt;/tr>
+    &lt;/table>
              </pre>   
         </div>
     <p>Output:</p>
     <table>
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+          <th class="start">Company</th>
+          <th class="start">Contact</th>
+          <th class="start">Country</th>
         </tr>
         <tr>
           <td>Alfreds Futterkiste</td>
@@ -110,31 +111,33 @@
     </table>
     <p>Common uses:</p>
     <table class="common">
-        <tbody>
+        <tbody class="contacts">
             <tr>
-                <th colspan="4">Contacts</th>
+                <th colspan="4"><i class="fa-solid fa-address-book"></i>Contacts</th>
             </tr>
             <tr>
-                <td>Jenny</td>
-                <td>(555)555-5555</td>
-                <td>aliquipexea@gmail.com</td>
+                
+                <td><i class="fa-solid fa-j"></i>Jenny</td>
+                <td><i class="fa-solid fa-phone"></i>(555)555-5555</td>
+                <td><i class="fa-solid fa-envelope"></i>aliquipexea@gmail.com</td>
             </tr>
             <tr>
-                <td>Frank</td>
-                <td>(555)555-5555</td>
-                <td>aliquipexea@gmail.com</td>
+                <td><i class="fa-solid fa-f"></i>Frank</td>
+                <td><i class="fa-solid fa-phone"></i>(555)555-5555</td>
+                <td><i class="fa-solid fa-envelope"></i>aliquipexea@gmail.com</td>
             </tr>
             <tr>
-                <td>Eddie</td>
-                <td>(555)555-5555</td>
-                <td>aliquipexea@gmail.com</td>
+                <td><i class="fa-solid fa-e"></i>Eddie</td>
+                <td><i class="fa-solid fa-phone"></i>(555)555-5555</td>
+                <td><i class="fa-solid fa-envelope"></i>aliquipexea@gmail.com</td>
             </tr>
         </tbody>
     </table>
+    <br>
     <table>
         <tbody>
             <tr>
-                <th colspan="8">Schedule</th>
+                <th colspan="8"><i class="fa-solid fa-calendar-check"></i>Schedule</th>
             </tr>
             <tr>
                 <td></td>
@@ -178,6 +181,7 @@
             </tr>
         </tbody>
     </table>
+    <br>
     <table>
         <tbody>
             <tr>
