@@ -25,7 +25,8 @@ i {
 }
 
 i.fa-solid.fa-address-book,
-i.fa-solid.fa-calendar-check {
+i.fa-solid.fa-calendar-check,
+i.fa-solid.fa-basketball {
     margin-right: 0px;
 }
 
@@ -35,7 +36,8 @@ i.fa-solid.fa-address-book,
 i.fa-solid.fa-calendar-check,
 i.fa-solid.fa-moon,
 i.fa-solid.fa-sun,
-i.fa-solid.fa-mug-saucer {
+i.fa-solid.fa-mug-saucer,
+i.fa-solid.fa-basketball {
     color: black;
 }
 
