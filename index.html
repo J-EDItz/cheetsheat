@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/cb710ee383.js" crossorigin="anonymous"></script>
     <title>HTML Tables Cheatsheet</title>
@@ -134,11 +135,15 @@
         </tbody>
     </table>
     <br>
-    <table>
-        <tbody>
+    <table id="schedule">
+        <thead>
             <tr>
-                <th colspan="8"><i class="fa-solid fa-calendar-check"></i>Schedule</th>
+                <th><a href="mailto:?subject=My Weekly schedule&amp;body=Let me know what time works in advance for you" target ="_blank" title="Share by Email"><i class="fa-solid fa-square-share-nodes"></i></a></th>
+                <th colspan="6"><i class="fa-solid fa-calendar-check"></i>My<span id="schedule">Schedule</span></th>
+                <th><a href="https://calendar.google.com/calendar/u/0/r/eventedit?tab=rc" target="_blank"><i class="fa-solid fa-plus"></i></a></th>
             </tr>
+        </thead>
+        <tbody>
             <tr>
                 <td></td>
                 <th>Sunday</th>
@@ -151,33 +156,33 @@
             </tr>
             <tr>
                 <th><i class="fa-solid fa-mug-saucer"></i>Morning</th>
-                <td>Lyft</td>
-                <td>Code</td>
-                <td>Code</td>
-                <td>Code</td>
-                <td>Code</td>
-                <td>Lyft</td>
-                <td>MMA</td>
+                <td class="lyft">Lyft</td>
+                <td class="code">Code</td>
+                <td class="code">Code</td>
+                <td class="code">Code</td>
+                <td class="code">Code</td>
+                <td class="lyft">Lyft</td>
+                <td class="mma">MMA</td>
             </tr>
             <tr>
                 <th><i class="fa-solid fa-sun"></i>Daytime</th>
-                <td>MMA</td>
-                <td>Gym</td>
-                <td>Gym</td>
-                <td>Gym</td>
-                <td>Gym</td>
-                <td>Family time</td>
-                <td>Family time</td>
+                <td class="mma">MMA</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <th><i class="fa-solid fa-moon"></i>Evening</th>
-                <td>Read</td>
-                <td>Read</td>
-                <td>Code</td>
-                <td>Code</td>
-                <td>Lyft</td>
-                <td>Dine out</td>
-                <td>Dine out</td>
+                <td></td>
+                <td></td>
+                <td class="code">Code</td>
+                <td class="code">Code</td>
+                <td class="lyft">Lyft</td>
+                <td></td>
+                <td></td>
             </tr>
         </tbody>
     </table>

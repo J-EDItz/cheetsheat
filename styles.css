@@ -34,12 +34,15 @@ i.fa-solid.fa-basketball {
 i.fa-solid.fa-phone,
 i.fa-solid.fa-envelope,
 i.fa-solid.fa-address-book,
-i.fa-solid.fa-calendar-check,
 i.fa-solid.fa-moon,
 i.fa-solid.fa-sun,
 i.fa-solid.fa-mug-saucer,
 i.fa-solid.fa-basketball {
     color: black;
+}
+
+i.fa-solid.fa-calendar-check {
+  color: white;
 }
 
 i.fa-solid.fa-j {
@@ -56,7 +59,7 @@ i.fa-solid.fa-e {
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    font-size: x-large;
+    font-size: larger;
 }
 
 a:link {
@@ -82,6 +85,10 @@ nav {
     background-color: hsl(200deg 100% 75%);
 }
 
+#schedule {
+  font-weight: 100;
+}
+
 h1,
 h2,
 nav,
@@ -97,6 +104,35 @@ p {
    display: inline-block;
    text-align: left;
   }
+
+#schedule tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+#schedule tbody td:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+#schedule tbody tr:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+#schedule thead tr th {
+  background-color: black;
+  color: white;
+}
+
+#schedule tbody tr td.lyft {
+  background-color: #e145b5;
+}
+
+#schedule tbody tr td.mma {
+  background-color: red;
+}
+
+#schedule tbody tr td.code {
+  background-color: rgb(3, 155, 229);
+}
 
 table {
     margin-left: auto;
