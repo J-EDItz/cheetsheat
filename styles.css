@@ -85,10 +85,6 @@ nav {
     background-color: hsl(200deg 100% 75%);
 }
 
-#schedule {
-  font-weight: 100;
-}
-
 h1,
 h2,
 nav,
@@ -101,12 +97,23 @@ p {
   }
  
  #pre pre {
-   display: inline-block;
-   text-align: left;
+  display: inline-block;
+  text-align: left;
   }
 
-#schedule tbody tr {
-    border-bottom: 1px solid #dddddd;
+#schedule {
+  font-weight: 100;
+}
+
+#schedule tbody tr td {
+  border-radius: 4px;
+}
+
+
+#schedule tbody tr td {
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  color: white;
 }
 
 #schedule tbody td:nth-of-type(even) {
@@ -117,9 +124,18 @@ p {
   border-bottom: 2px solid black;
 }
 
+#schedule tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
 #schedule thead tr th {
   background-color: black;
   color: white;
+}
+
+#schedule tbody tr th.weekday {
+  color: gray;
 }
 
 #schedule tbody tr td.lyft {
