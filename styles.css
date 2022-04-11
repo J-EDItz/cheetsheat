@@ -1,34 +1,32 @@
-
-
 .fa {
-    padding: 20px;
-    font-size: 25px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+  padding: 20px;
+  font-size: 25px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
   }
 
-  .fa:hover {
-    opacity: 0.7;
-  }
+.fa:hover {
+  opacity: 0.7;
+}
 
 i {
-    width: 25px;
-    height: 25px;
-    border-radius: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 25px;
-    padding-left: 25px;
-    color: white;
-    margin-right: 24px;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: white;
+  margin-right: 24px;
 }
 
 i.fa-solid.fa-address-book,
 i.fa-solid.fa-calendar-check,
 i.fa-solid.fa-basketball {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 
 i.fa-solid.fa-phone,
@@ -38,7 +36,7 @@ i.fa-solid.fa-moon,
 i.fa-solid.fa-sun,
 i.fa-solid.fa-mug-saucer,
 i.fa-solid.fa-basketball {
-    color: black;
+  color: black;
 }
 
 i.fa-solid.fa-calendar-check {
@@ -46,54 +44,60 @@ i.fa-solid.fa-calendar-check {
 }
 
 i.fa-solid.fa-j {
-    background-color: tomato;
+  background-color: tomato;
 }
 
 i.fa-solid.fa-f {
-    background-color: hsl(189, 68%, 53%);
+  background-color: hsl(189, 68%, 53%);
 }
 
 i.fa-solid.fa-e {
-    background-color: rgb(161, 19, 161);
+  background-color: rgb(161, 19, 161);
 }
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: larger;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: larger;
 }
 
 a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-  }
-  a:hover {
-    color: whitesmoke;
-    background-color: transparent;
-  }
-  a:active {
-    color: black;
-    background-color: transparent;
-  }
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: whitesmoke;
+  background-color: transparent;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+}
+
+a:hover.players {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 nav {
-    background-color: hsl(200deg 100% 75%);
+  background-color: hsl(200deg 100% 75%);
 }
 
 h1,
 h2,
 nav,
 p {
-    text-align: center;
+  text-align: center;
 }
 
 #pre {
-    text-align: center;
+  text-align: center;
   }
  
  #pre pre {
@@ -151,30 +155,34 @@ p {
 }
 
 table {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.greybanner {
+  background-color: #dddddd;
 }
 
 th.start {
-    text-align: start;
-    background-color: hsl(200deg 100% 75%);
+  text-align: start;
+  background-color: hsl(200deg 100% 75%);
 }
 
 th,
 td {
-    padding: 6px 12px;
+  padding: 6px 12px;
 }
 
 table {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border-collapse: collapse;
-    min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-collapse: collapse;
+  min-width: 400px;
   }
 
 table th {
-    color: black;
+  color: black;
 }
 
 table.common {
-    text-align: center;
+  text-align: center;
 }
